@@ -1,0 +1,15 @@
+{
+  "name": "dsa-practice",
+  "private": true,
+  "description": "DSA + Java concepts practice: Java solutions, Node test runner",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node scripts/run.js",
+    "watch": "node scripts/run.js --watch",
+    "list": "node scripts/run.js list",
+    "new": "node scripts/run.js new",
+    "new-concept": "node scripts/run.js new-concept"
+  }
+}
